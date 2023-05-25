@@ -1,0 +1,14 @@
+---
+import Homelayout from "../layouts/Homelayout.astro";
+import Intro from "../components/Intro.jsx";
+import Home from "../components/Home.jsx";
+import Draggable from "../components/Draggable.jsx";
+import Footer from "../components/Footer.jsx";
+---
+
+<Homelayout title="Culture Collector">
+  <Intro client:load />
+  <Home client:load />
+  <Draggable client:load />
+  <Footer client:visible />
+</Homelayout>
