@@ -1,8 +1,26 @@
-# Astro Starter Kit: Basics
+# Culture Collector
 
-```shell
-git clone https://github.com/klevert-ope/culturecollector.git
-```
+Culture Collector is a project that combines Astro.js and React.js to showcase the usage of GSAP for motion effects. The project demonstrates how to integrate GSAP and React and provides an example of creating a draggable component. In this case, the draggable component allows users to drag and arrange images across the screen according to their preferences.
+
+## Table of Contents
+
+- [Culture Collector](#culture-collector)
+  - [Table of Contents](#table-of-contents)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Technologies](#technologies)
+  - [Features](#features)
+  - [License](#license)
+
+## Installation
+
+To run Culture Collector locally on your machine, follow these steps:
+
+1. Clone the repository:
+
+   ```shell
+   git clone https://github.com/klevert-ope/culturecollector.git
+   ```
 
 2. Navigate to the project directory:
 
