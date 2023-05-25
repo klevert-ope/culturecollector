@@ -5,7 +5,7 @@ const Footer = () => {
 
   return (
     <section id="footer" className=" h-screen bg-black hidden">
-      <div className=" grid gap-5 grid-cols-1 md:grid-cols-3 font-ClashGrotesk font-semibold text-white text-4xl lg:text-6xl xl:text-7xl pt-10">
+      <div className=" grid gap-5 grid-cols-1 md:grid-cols-3 font-ClashGrotesk font-semibold text-white text-4xl lg:text-6xl xl:text-7xl pt-5">
         <div>
           <ul>
             <li className="text-sm font-Technor font-bold text-red-600">
