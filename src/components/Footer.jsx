@@ -37,7 +37,7 @@ const Footer = () => {
       </div>
       <div
         id="creatortag"
-        className=" mt-20 font-ClashGrotesk font-semibold text-sm text-center text-white"
+        className=" pt-2 font-ClashGrotesk font-semibold text-sm text-center text-white"
         data-test="footer-text"
       >
         &copy;{currentYear} Made with 💙 by Klevert
