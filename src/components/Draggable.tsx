@@ -141,7 +141,7 @@ class AstroDraggable extends React.Component {
         </Draggable>
         <Draggable bounds="parent" handle=".handle">
           <img
-            className=" absolute bottom-1 left-1/3 w-28  sm:w-36  handle cursor-pointer"
+            className=" absolute bottom-1 left-1/3 w-20  sm:w-36  handle cursor-pointer"
             src="/images/drag/burna.jpg"
             alt=""
           />
