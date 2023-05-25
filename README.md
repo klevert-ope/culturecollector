@@ -1,55 +1,63 @@
-# Astro Starter Kit: Basics
+# Culture Collector
 
+Culture Collector is a project that combines Astro.js and React.js to showcase the usage of GSAP for motion effects. The project demonstrates how to integrate GSAP and React and provides an example of creating a draggable component. In this case, the draggable component allows users to drag and arrange images across the screen according to their preferences.
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Technologies](#technologies)
+- [Features](#features)
+- [License](#license)
+
+## Installation
+
+To run Culture Collector locally on your machine, follow these steps:
+
+1. Clone the repository:
+
+   ```shell
+   git clone https://github.com/klevert-ope/culturecollector.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```shell
+   cd culturecollector
+   ```
+
+3. Install the dependencies:
+
+   ```shell
+   npm install
+   ```
+
+## Usage
+
+Once you have installed the dependencies, you can start the application by running the following command:
+
+```shell
+npm start
 ```
-npm create astro@latest -- --template basics
-```
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+This command will launch the application in your default browser. You can then interact with the draggable component to rearrange the images as desired.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Technologies
 
-![basics](https://user-images.githubusercontent.com/4677417/186188965-73453154-fdec-4d6b-9c34-cb35c248ae5b.png)
+The following technologies are used in this project:
 
+- Astro.js: Astro.js is a static site builder that allows you to build faster websites using modern tools and JavaScript frameworks.
+- React.js: React.js is a popular JavaScript library for building user interfaces.
+- GSAP (GreenSock Animation Platform): GSAP is a powerful JavaScript library for creating high-performance animations and transitions.
+- npm: npm is the package manager for the Node.js ecosystem, used to manage project dependencies.
 
-## 🚀 Project Structure
+## Features
 
-Inside of your Astro project, you'll see the following folders and files:
+Culture Collector showcases the following features:
 
-```
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+- Integration of GSAP with React.js: The project demonstrates how to incorporate GSAP animations into a React.js application.
+- Draggable Component: Users can drag and arrange images across the screen to their liking.
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+## License
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:3000`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Culture Collector is released under the [MIT License](https://opensource.org/licenses/MIT). See the [LICENSE](https://github.com/klevert-ope/culturecollector/blob/main/LICENSE) file for more details.
