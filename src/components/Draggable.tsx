@@ -15,14 +15,14 @@ class AstroDraggable extends React.Component {
         </h1>
         <Draggable bounds="parent" handle=".handle">
           <img
-            className=" absolute top-1/4 left-2 w-28  handle cursor-pointer"
+            className=" absolute top-20 left-2 w-20  handle cursor-pointer"
             src="/images/drag/50 cent.jpg"
             alt=""
           />
         </Draggable>
         <Draggable bounds="parent" handle=".handle">
           <img
-            className=" absolute top-1 right-1 w-28  handle cursor-pointer"
+            className=" absolute top-1 right-1 w-20  handle cursor-pointer"
             src="/images/drag/brandy.jpg"
             alt=""
           />
@@ -50,21 +50,21 @@ class AstroDraggable extends React.Component {
         </Draggable>
         <Draggable bounds="parent" handle=".handle">
           <img
-            className=" absolute top-52 left-1/2 w-28  handle cursor-pointer"
+            className=" absolute top-52 left-1/2 w-20  handle cursor-pointer"
             src="/images/drag/diddy.jpeg"
             alt=""
           />
         </Draggable>
         <Draggable bounds="parent" handle=".handle">
           <img
-            className=" absolute bottom-24 right-20 w-28  handle cursor-pointer"
+            className=" absolute bottom-24 right-20 w-20  handle cursor-pointer"
             src="/images/drag/fela.jpg"
             alt=""
           />
         </Draggable>
         <Draggable bounds="parent" handle=".handle">
           <img
-            className=" absolute bottom-1 left-1 w-28  handle cursor-pointer"
+            className=" absolute bottom-1 left-1 w-16 md:w-20 handle cursor-pointer"
             src="/images/drag/jay z.jpg"
             alt=""
           />
@@ -78,7 +78,7 @@ class AstroDraggable extends React.Component {
         </Draggable>
         <Draggable bounds="parent" handle=".handle">
           <img
-            className=" absolute  bottom-1/4 right-1/4 w-20  sm:w-36  handle cursor-pointer"
+            className=" absolute  bottom-1/4 right-1/4 w-16  sm:w-36  handle cursor-pointer"
             src="/images/drag/beyonce.jpg"
             alt=""
           />
@@ -92,7 +92,7 @@ class AstroDraggable extends React.Component {
         </Draggable>
         <Draggable bounds="parent" handle=".handle">
           <img
-            className=" absolute bottom-1/3 left-1/4 w-28 lg:w-52 handle cursor-pointer"
+            className=" absolute bottom-1/3 left-1/4 w-16 lg:w-52 handle cursor-pointer"
             src="/images/drag/jcole.png"
             alt=""
           />
@@ -127,7 +127,7 @@ class AstroDraggable extends React.Component {
         </Draggable>
         <Draggable bounds="parent" handle=".handle">
           <img
-            className=" absolute  top-0 left-1/2  w-20 sm:w-36  handle cursor-pointer"
+            className=" absolute  top-0 left-1/2  w-16 sm:w-36  handle cursor-pointer"
             src="/images/drag/Kirk.jpg"
             alt=""
           />
