@@ -6,14 +6,21 @@ const Intro = () => {
     const introduction = gsap.timeline();
 
     introduction
-      .from("#culture", { opacity: 0, y: 40, duration: 1, ease: "sine.out" })
-      .from("#collector", { opacity: 0, y: -40, duration: 2, ease: "sine.out" })
-      .from("#quote1", {
-        opacity: 0,
-        x: -10,
-        duration: 2,
-        ease: "sine.out",
-      })
+      .fromTo(
+        "#culture",
+        { opacity: 0, y: 40 },
+        { opacity: 1, y: 0, duration: 1, ease: "sine.out" }
+      )
+      .fromTo(
+        "#collector",
+        { opacity: 0, y: -40 },
+        { opacity: 1, y: 0, duration: 2, ease: "sine.out" }
+      )
+      .fromTo(
+        "#quote1",
+        { opacity: 0, x: -10 },
+        { opacity: 1, x: 0, duration: 2, ease: "sine.out" }
+      )
 
       .to(["#culture", "#collector", "#quote1"], {
         opacity: 0,
@@ -68,7 +75,7 @@ const Intro = () => {
         <div className=" absolute top-10 right-5">
           <p
             id="quote1"
-            className=" font-ClashGrotesk font-semibold max-w-xxs md:max-w-xs text-base lg:text-lg xl:text-xl"
+            className=" font-ClashGrotesk font-semibold max-w-xxs md:max-w-xs text-base lg:text-lg xl:text-xl opacity-0"
           >
             Music is the universal language that transcends boundaries, connects
             souls, and preserves the essence of our culture.
@@ -76,12 +83,12 @@ const Intro = () => {
         </div>
         <div className=" flex flex-row justify-center font-Technor font-extrabold text-4xl lg:text-6xl xl:text-7xl">
           <div>
-            <h1 id="culture" className=" text-red-600">
+            <h1 id="culture" className=" text-red-600 opacity-0">
               Culture
             </h1>
           </div>
           <div>
-            <h1 id="collector" className=" text-blue-700">
+            <h1 id="collector" className=" text-blue-700 opacity-0">
               Collector
             </h1>
           </div>
