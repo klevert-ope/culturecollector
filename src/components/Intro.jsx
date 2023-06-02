@@ -9,17 +9,17 @@ const Intro = () => {
       .fromTo(
         "#culture",
         { opacity: 0, y: 40 },
-        { opacity: 1, y: 0, duration: 1, ease: "sine.out" }
+        { opacity: 1, y: 0, duration: 1, ease: "sine.in" }
       )
       .fromTo(
         "#collector",
         { opacity: 0, y: -40 },
-        { opacity: 1, y: 0, duration: 2, ease: "sine.out" }
+        { opacity: 1, y: 0, duration: 2, ease: "sine.in" }
       )
       .fromTo(
         "#quote1",
         { opacity: 0, x: -10 },
-        { opacity: 1, x: 0, duration: 2, ease: "sine.out" }
+        { opacity: 1, x: 0, duration: 2, ease: "sine.in" }
       )
 
       .to(["#culture", "#collector", "#quote1"], {
@@ -32,7 +32,7 @@ const Intro = () => {
       .from(".intro", {
         opacity: 0,
         duration: 1,
-        ease: "power4",
+        ease: "power4.in",
         stagger: 0.2,
         onComplete: showDraggable,
       })
